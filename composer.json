@@ -1,6 +1,6 @@
 {
     "name": "randika-srimal/hubspot-tools",
-    "description": "A collection of custom tools for interact with HubSpot Eco System",
+    "description": "A collection of custom tools for interact with Hubspot Eco System",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -13,5 +13,12 @@
             "email": "email2randika@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RandikaSrimal\\HubspotTools\\Providers\\HubspotToolsServiceProvider"
+            ]
+        }
+    }
 }
