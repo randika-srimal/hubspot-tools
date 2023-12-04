@@ -1,0 +1,17 @@
+{
+    "name": "randika-srimal/hubspot-tools",
+    "description": "A collection of custom tools for interact with HubSpot Eco System",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RandikaSrimal\\HubspotTools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Randika Dissanayaka",
+            "email": "email2randika@gmail.com"
+        }
+    ],
+    "require": {}
+}
